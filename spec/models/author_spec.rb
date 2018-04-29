@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Author, type: :model do
-  let :format { FactoryBot.create :format, name: :Hardcover }
+  let :format { Format.all === 0 ? FactoryBot.create( :format ) : Format.all.sample }
   let :author { FactoryBot.create :author, name: :"Thomas Pynchon" }
 
   it {

@@ -1,4 +1,4 @@
-formats = [ :Hardcover, :Softcover, :Digital ].map {|f| Format.create name: f }
+formats = [ 0, 1, 2 ].map {|f| Format.create name: f }
 
 authors = [
   "Autrhur C. Clarke",
