@@ -1,4 +1,7 @@
-# GET http://localhost:3000/library
+# Curently Deployed
+## dev.serializers_and_endpoints
+
+# GET https://shielded-sands-90013.herokuapp.com/library
 ```
 {
   "data": [
@@ -592,7 +595,7 @@
 }
 ```
 
-# GET http://localhost:3000/library/books
+# GET https://shielded-sands-90013.herokuapp.com/library/books
 ```
 {
   "data": [
@@ -974,7 +977,7 @@
 }
 ```
 
-# GET http://localhost:3000/library/authors
+# GET https://shielded-sands-90013.herokuapp.com/library/authors
 ```
 {
   "data": [
@@ -1090,7 +1093,7 @@
 }
 ```
 
-# POST http://localhost:3000/authors
+# POST https://shielded-sands-90013.herokuapp.com/authors
 ```    
 {
   "data": {
@@ -1122,7 +1125,7 @@
   }
 }
 ```
-# POST http://localhost:3000/books
+# POST https://shielded-sands-90013.herokuapp.com/books
 ```
 {
   "data": {
